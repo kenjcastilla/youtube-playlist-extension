@@ -1,0 +1,28 @@
+body {
+    min-width: 175px;
+    height: 65px;
+    background-color: #f7c9c9;
+}
+div {
+    width: 100%;
+    height: 98%;
+    border: 0.2rem solid #d6a2a2;
+    border-radius: 20%;
+    background-color: #c28080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -0.2rem;
+    margin-top: -0.25rem;
+}
+button {
+    width: 100%;
+    height: 100%;
+    border: 0.2rem solid #2d2424;
+    background-color: #181313;
+    color: white;
+    border-radius: 50%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    margin: auto;
+}

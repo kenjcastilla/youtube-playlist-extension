@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Playlist Item Dates",
+    "version": "1.0",
+    "description": "Shows the date each video was added to your YouTube playlist. Dates are in YYYY-MM-DD format.",
+    "key": "<Key from Google Developer Console>",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "128.png" 
+    },
+    "permissions": ["scripting", "identity", "tabs", "activeTab"],
+    "host_permissions": ["https://www.googleapis.com/auth/youtube.force-ssl"],
+    "oauth2": {
+        "client_id": "",
+        "scopes": ["https://www.googleapis.com/auth/youtube.force-ssl"]
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    }
+   
+}
