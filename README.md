@@ -1,4 +1,4 @@
-# youtube-playlist-extension
+# YouTube Playlist Chrome Extension
 
 I like to see when I added something to a list or playlist, whether it be for music, articles, or **videos**.
 
